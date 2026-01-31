@@ -28,6 +28,17 @@ Labels for the official test split are not publicly available and are therefore 
 
 ---
 
+## Dataset Acquisition
+
+The SeaDronesSee dataset used in this project corresponds to **Version 2 (V2)**.
+
+The dataset can be downloaded from the official project website:
+https://seadronessee.cs.uni-tuebingen.de
+
+Due to its size and licensing terms, the dataset is not included in this repository.
+Users are expected to download the dataset manually and place it in the directory structure described in this document.
+
+
 ## 2) Target Dataset Structure (YOLO Format)
 
 For compatibility with YOLOv7, the dataset is organized using the standard YOLO directory layout.
@@ -143,4 +154,5 @@ All images are paired with YOLO-format label files
 The dataset structure is compatible with YOLOv7
 
 The project is ready for baseline training and subsequent experiments
+
 
