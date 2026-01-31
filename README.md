@@ -73,20 +73,33 @@ seadronessee-yolov7-research/
 
 ## Dataset
 
-All experiments are conducted on the **SeaDronesSee** maritime UAV dataset.  
-Due to licensing and size constraints, the dataset is **not included** in this repository.
+This project uses the **SeaDronesSee** maritime UAV dataset (Version 2).
 
-The dataset contains five object categories:
+The dataset is publicly available as part of the Maritime Computer Vision (MaCVi) initiative and is commonly used for benchmarking maritime object detection methods.
 
-- swimmer  
-- boat  
-- jetski  
-- buoy  
-- life-saving appliances  
+- Dataset website: https://seadronessee.cs.uni-tuebingen.de
+- Version used: **SeaDronesSee V2**
 
-Ground-truth labels are available for the training and validation splits and are used consistently across experiments.
+Due to dataset size and licensing constraints, the dataset is **not included** in this repository.
 
----
+### Dataset Setup
+
+After downloading SeaDronesSee V2, the dataset should be placed inside the YOLOv7 directory using the following structure:
+
+external/yolov7/data/
+├── images/
+│ ├── train/
+│ └── val/
+├── labels/
+│ ├── train/
+│ └── val/
+└── annotations/
+├── instances_train.json
+└── instances_val.json
+
+
+Refer to `experiments/00_setup/00_dataset_preparation.md` for details on annotation conversion and preprocessing.
+
 
 ## How to Run
 
