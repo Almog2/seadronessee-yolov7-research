@@ -15,7 +15,6 @@ The baseline model is trained using the standard YOLOv7 training pipeline.
 
 The command below is executed from the YOLOv7 root directory:
 
-```bash
 python3 train.py \
   --workers 4 \
   --device 0 \
@@ -26,6 +25,7 @@ python3 train.py \
   --weights weights/yolov7.pt \
   --name seadronessee_baseline \
   --hyp data/hyp.scratch.p5.yaml
+
 Training Notes
 The model is initialized from the official pretrained YOLOv7 weights.
 
@@ -47,6 +47,7 @@ python3 test.py \
   --data data/seadronessee.yaml \
   --img 640 \
   --device 0
+
 Outputs
 YOLOv7 outputs are written to:
 
@@ -75,4 +76,5 @@ Post-detection CNN-based verification
 Size-based (small vs large) performance analysis
 
 All subsequent experiments are compared against this baseline configuration.
+
 
