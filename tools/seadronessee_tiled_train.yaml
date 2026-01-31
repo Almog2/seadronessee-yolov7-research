@@ -1,0 +1,10 @@
+train: /home/linuxu/Desktop/Research_Project/yolov7/data/images/train_tiled
+val: /home/linuxu/Desktop/Research_Project/yolov7/data/images/val
+
+nc: 5
+names:
+  - swimmer
+  - boat
+  - jetski
+  - life_saving_appliances
+  - buoy
