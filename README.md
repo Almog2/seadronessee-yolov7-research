@@ -78,7 +78,7 @@ This project uses the **SeaDronesSee** maritime UAV dataset (Version 2).
 The dataset is publicly available as part of the Maritime Computer Vision (MaCVi) initiative and is commonly used for benchmarking maritime object detection methods.
 
 - Dataset website: https://seadronessee.cs.uni-tuebingen.de
-- Version used: **SeaDronesSee V2**
+- Version used: **Object Detection V2**
 
 Due to dataset size and licensing constraints, the dataset is **not included** in this repository.
 
