@@ -131,7 +131,8 @@ To keep the repository lightweight and compliant:
 ---
 
 ## Citation
-If you use this repository for academic purposes, please cite the associated seminar paper (see `docs/`).
+If you use this repository for academic purposes, please cite the associated seminar paper (see `[Seminar Paper.docx](https://github.com/user-attachments/files/24991638/Seminar.Paper.doc)
+cs/`).
 
 ---
 
